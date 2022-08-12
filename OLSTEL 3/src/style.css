@@ -1,0 +1,41 @@
+
+body {
+    background: linear-gradient( #9198e5););
+}
+
+.secaoPrincipal {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.imgPrincipal {
+    max-width: 450px;
+    border-radius: 30%;
+    box-shadow: 20px 20px 20px yellow;
+
+}
+
+.artigo-comum {
+    box-shadow: 20px 20px 20px gainsboro;
+}
+
+.cartoes {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.img-cartao {
+    height: 300px;
+    object-fit: contain;
+}
+
+.card-largura {
+    max-width: 18rem;
+}
+
+.accordion {
+    width: 50%;
+    margin-right: 20rem;
+}
